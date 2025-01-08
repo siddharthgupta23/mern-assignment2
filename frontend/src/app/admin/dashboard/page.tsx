@@ -34,7 +34,7 @@ const AdminDashboard: React.FC = () => {
       }
 
       try {
-        const response = await fetch('https://mern-backend-f2iz.onrender.com/api/enrollments', {
+        const response = await fetch('https://mern-assignment2.vercel.app/api/enrollments', {
           headers: {
             'Authorization': `Bearer ${token}`
           }
