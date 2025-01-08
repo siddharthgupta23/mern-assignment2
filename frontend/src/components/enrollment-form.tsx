@@ -151,7 +151,7 @@ export function EnrollmentForm({ onClose }: EnrollmentFormProps) {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/enrollments', {
+      const response = await fetch('https://mern-assignment2.vercel.app/api/enrollments', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
