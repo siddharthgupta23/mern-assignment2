@@ -8,7 +8,8 @@
     "start": "vite --port 5173",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "esbuild --version"
   },
   "engines": {
     "node": "18.x",
