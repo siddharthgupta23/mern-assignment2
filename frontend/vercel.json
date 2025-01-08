@@ -2,17 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.html",
-      "use": "@vercel/static"
+      "src": "src/main.tsx",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "src/main.tsx"
     }
   ],
   "env": {
     "NPM_REGISTRY_URL": "https://registry.npmjs.org/"
   }
 }
+
