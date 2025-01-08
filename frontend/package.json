@@ -8,13 +8,8 @@
     "start": "vite --port 5173",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "postinstall": "esbuild --version"
+    "preview": "vite preview"
   },
- "resolutions": {
-  "esbuild": "0.17.19"
-},
-
   "engines": {
     "node": "18.x",
     "npm": "9.x"
@@ -24,8 +19,8 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.469.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^7.1.1",
     "tailwindcss-animate": "^1.0.7",
