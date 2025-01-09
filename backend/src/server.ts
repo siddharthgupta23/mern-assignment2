@@ -14,7 +14,13 @@ const app: Application = express();
 connectDB();
 
 // Middleware
-app.use(cors());
+app.use(cors(
+  {
+    origin:["https://mern-assignment2-bjxk.vercel.app/"],
+    methods: ["POST","GET"],
+    credentials:true
+  }
+));
 app.use(express.json());
 
 // Routes
