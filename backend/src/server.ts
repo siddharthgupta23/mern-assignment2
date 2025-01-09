@@ -16,7 +16,7 @@ connectDB();
 // Middleware
 app.use(cors(
   {
-    origin:["https://mern-assignment2-bjxk.vercel.app/"],
+    origin:["https://mern-assignment2-bjxk.vercel.app"],
     methods: ["POST","GET"],
     credentials:true
   }
